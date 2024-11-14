@@ -1,0 +1,6 @@
+.neo-timeline::before {
+  background: radial-gradient(986.43% 408.5% at -98.41% -58.25%, #00C3FD 0%, #0194FE 24.23%, #012B7F 78.95%) !important;
+  border-radius: 16px;
+  top: 5%;
+  height: 90%;
+}
