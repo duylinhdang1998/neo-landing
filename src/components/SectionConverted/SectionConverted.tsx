@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function SectionConverted() {
   return (
-    <section className='py-[48px] lg:py-[100px] px-4'>
-      <div className='relative lg:max-w-6xl container mx-auto'>
+    <section className='py-[48px] lg:py-[100px] px-4 dark:bg-bg-primary'>
+      <div className='relative lg:max-w-6xl container mx-auto '>
         <img
           src={'/img/converted.png'}
           alt='converted'
-          className='absolute top-0 left-0 w-full h-full rounded-[16px]'
+          className='absolute top-0 left-0 w-full h-full rounded-[16px] dark:border dark:border-neutral-6'
         />
         <div className='relative z-10 px-4 py-[32px] lg:p-[64px]'>
           <div className='text-[28px] lg:text-[40px] font-semibold mb-6 text-white'>

@@ -6,6 +6,7 @@ export default {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class', // Use the `class` strategy
   theme: {
     extend: {
       colors: {
@@ -20,6 +21,8 @@ export default {
         'neutral-6': '#353945',
         'neutral-7': '#23262F',
         'neutral-8': '#141414',
+        'bg-primary': '#000618',
+        'blue-dark': '#160E33',
       },
       backgroundImage: {
         'gradient-primary':

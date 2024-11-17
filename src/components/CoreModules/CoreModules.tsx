@@ -17,13 +17,16 @@ const data = [
 ];
 export default function CoreModules() {
   return (
-    <section id='corderModules'>
+    <section id='corderModules' className='dark:bg-bg-primary'>
       <div className='container mx-auto py-[48px] lg:py-[100px] px-4 xl:px-0 lg:max-w-6xl'>
-        <div className='text-center text-[28px] lg:text-[48px] font-semibold text-neutral-7'>
+        <div
+          className='text-center text-[28px] lg:text-[48px] font-semibold text-neutral-7 dark:text-white'
+          data-aos='fade-in'
+        >
           Core Modules
         </div>
-        <div className='grid grid-cols-12 mt-2 lg:mt-6'>
-          <div className='col-span-12 lg:col-span-6 lg:col-start-4 lg:col-end-10 text-sm lg:text-base text-center text-neutral-5'>
+        <div className='grid grid-cols-12 mt-2 lg:mt-6' data-aos='fade-in'>
+          <div className='col-span-12 lg:col-span-6 lg:col-start-4 lg:col-end-10 text-sm lg:text-base text-center text-neutral-5 dark:text-neutral-4'>
             With S2E, users earn rewards while consuming entertainment content.
             Unlike traditional platforms, Link.Neo directly rewards users with
             NEO and LINK tokens for streaming music, videos, and other media

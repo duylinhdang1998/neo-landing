@@ -2,11 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Light mode variables */
+  --bg-image-banner: url('/img/hero.png');
+}
+
+:root.dark {
+  /* Dark mode variables */
+  --bg-image-banner: url('/img/hero-dark.png');
+}
+
 .bg-hero {
-  background-image: url('/img/hero.png');
+  background-image: var(--bg-image-banner);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  transition: all 0.5s ease;
 }
 .btn-animation::before {
   content: '';
