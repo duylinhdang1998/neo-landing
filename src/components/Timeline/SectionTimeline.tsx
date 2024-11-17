@@ -83,7 +83,12 @@ const SectionTimeLine = () => {
     return !isRight ? (
       <BorderTimelineLeftDark className='absolute top-0 right-0 h-full' />
     ) : (
-      <BorderTimelineRightDark className='absolute top-0 left-0 h-full' />
+      <BorderTimelineRightDark
+        className={cx({
+          'absolute top-0 left-0 h-full': matches,
+          'absolute top-[-4px] left-[-4px] h-[95%]': !matches,
+        })}
+      />
     );
   };
 

@@ -12,24 +12,20 @@ export default function SectionHero() {
         <div className='grid grid-cols-12 gap-[30px]'>
           <div className='col-span-12 lg:col-span-6'>
             <div
-              className='flex flex-col justify-center h-full gap-y-4 lg:gap-y-9 px-4 xl:px-0'
+              className='flex flex-col justify-center h-full gap-y-2 lg:gap-y-4 px-4 xl:px-0'
               data-aos='fade-left'
             >
               <h1 className='text-[28px] lg:text-[53px] font-semibold lg:leading-[64px] text-neutral-7 dark:text-white'>
-                Stream-to-Earn
-                <br />
-                Dual Trading of <span className='text-secondary'>
-                  NEO
-                </span> & <span className='text-primary'>LINK</span>
+                <span className='text-primary'>Link</span>.
+                <span className='text-secondary'>Neo</span> - Link You to the
+                Neo World
               </h1>
-              <p className='text-sm lg:text-[20px] text-neutral-7 mt-4 dark:text-white'>
-                {`Link.Neo's "Stream-to-Earn" (S2E) model enables creators and
-                users to earn, while dual trading of NEO and LINK enhances
-                liquidity between Neo and Chainlink ecosystems.`}
+              <p className='text-sm lg:text-[16px] text-neutral-7 mt-2 dark:text-white leading-[32px]'>
+                {`Stream AI-powered trading insights and earn NEO rewards while you learn and trade.`}
               </p>
               <div className='p-2 inline-flex max-w-fit btn-animation relative'>
                 <button className='bg-primary font-semibold text-white px-8 py-4 rounded-full transition-colors flex items-center space-x-3'>
-                  Get started →
+                  Start Earning →
                 </button>
               </div>
             </div>

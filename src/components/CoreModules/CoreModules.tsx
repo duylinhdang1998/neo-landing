@@ -4,15 +4,15 @@ import CoreItem from './CoreItem';
 const data = [
   {
     id: '1',
-    label: 'Blockchain Development',
+    label: 'Stream-to-Earn Rewards',
     img: '/img/blockchain.png',
-    desc: 'Users earn NEO tokens while watching content on Link.Neo-powered platforms. \n Milestone-based rewards in LINK tokens are unlocked',
+    desc: 'Earn NEO by streaming AI-driven trading insights',
   },
   {
     id: '2',
-    label: 'Oracle-Triggered Rewards',
+    label: 'Oracle-Powered Data',
     img: '/img/rewards.png',
-    desc: 'Chainlink’s oracles ensure real-time tracking of viewership metrics and content milestones. Accurate data powers automated payments, distributing rewards fairly between users and creators in NEO and LINK.',
+    desc: 'Real-time Chainlink data ensures trustworthy, actionable trading insights',
   },
 ];
 export default function CoreModules() {
@@ -23,14 +23,11 @@ export default function CoreModules() {
           className='text-center text-[28px] lg:text-[48px] font-semibold text-neutral-7 dark:text-white'
           data-aos='fade-in'
         >
-          Core Modules
+          Key Features
         </div>
         <div className='grid grid-cols-12 mt-2 lg:mt-6' data-aos='fade-in'>
           <div className='col-span-12 lg:col-span-6 lg:col-start-4 lg:col-end-10 text-sm lg:text-base text-center text-neutral-5 dark:text-neutral-4'>
-            With S2E, users earn rewards while consuming entertainment content.
-            Unlike traditional platforms, Link.Neo directly rewards users with
-            NEO and LINK tokens for streaming music, videos, and other media
-            content.
+            Stream-to-Earn and AI-Driven Trading
           </div>
         </div>
         <div className='mt-10 flex flex-col gap-y-8'>

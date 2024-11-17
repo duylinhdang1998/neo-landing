@@ -7,9 +7,11 @@ import ToggleTheme from '../ToggleTheme/ToggleTheme';
 
 const menuLinks = [
   { id: '1', label: 'Home', to: '/home' },
-  { id: '2', label: 'About us', to: '#' },
-  { id: '3', label: 'LinkNeo', to: '#' },
-  { id: '4', label: 'Vision', to: '#' },
+  { id: '2', label: 'Stream-to-Earn ', to: '#' },
+  { id: '3', label: 'AI Trading ', to: '#' },
+  { id: '4', label: 'Dual Earning ', to: '#' },
+  { id: '5', label: 'Governance ', to: '#' },
+  { id: '6', label: 'Help Center ', to: '#' },
 ];
 
 export default function Header() {
