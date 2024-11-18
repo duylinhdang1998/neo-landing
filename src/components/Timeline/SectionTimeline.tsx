@@ -68,10 +68,10 @@ const SectionTimeLine = () => {
 
   const renderBorderLight = (isRight: boolean) => {
     return !isRight ? (
-      <BorderTimelineLeft className='absolute top-0 right-0 h-full' />
+      <BorderTimelineLeft className='absolute top-0 right-0 h-full z-0' />
     ) : (
       <BorderTimelineRight
-        className={cx({
+        className={cx('z-0', {
           'absolute top-0 left-0 h-full': matches,
           'absolute top-[-4px] left-[-4px] h-[95%]': !matches,
         })}
