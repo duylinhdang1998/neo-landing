@@ -7,7 +7,7 @@ import { useMediaQuery } from 'usehooks-ts';
 export default function SectionHero() {
   const matches = useMediaQuery('(min-width: 1024px)');
   return (
-    <section className='bg-hero relative flex lg:justify-center lg:items-center min-h-screen'>
+    <section className='bg-hero relative flex lg:justify-center lg:items-center min-h-full lg:min-h-screen'>
       <div className='container mx-auto relative h-full mt-[100px] lg:mt-0'>
         <div className='grid grid-cols-12 gap-[30px]'>
           <div className='col-span-12 lg:col-span-6'>

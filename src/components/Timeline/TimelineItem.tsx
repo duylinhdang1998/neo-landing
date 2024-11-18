@@ -18,7 +18,7 @@ export default function TimelineItem({
 }: Props) {
   return (
     <div
-      className={cx('timeline-card-container z-9', {
+      className={cx('timeline-card-container z-9 max-w-[450px] lg:max-w-full', {
         'timeline-card-container__right': isRight,
       })}
     >
