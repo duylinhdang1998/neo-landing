@@ -4,12 +4,12 @@
 
 :root {
   /* Light mode variables */
-  --bg-image-banner: url('/img/hero.png');
+  --bg-image-banner: url('/img/hero.webp');
 }
 
 :root.dark {
   /* Dark mode variables */
-  --bg-image-banner: url('/img/hero-dark.png');
+  --bg-image-banner: url('/img/hero-dark.webp');
 }
 
 .bg-hero {

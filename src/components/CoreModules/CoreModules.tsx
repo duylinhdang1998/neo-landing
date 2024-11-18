@@ -17,7 +17,7 @@ const data = [
 ];
 export default function CoreModules() {
   return (
-    <section id='corderModules' className='dark:bg-bg-primary'>
+    <section id='corderModules' className='dark:bg-bg-primary bg-white min-h-fit w-full'>
       <div className='container mx-auto py-[48px] lg:py-[100px] px-4 xl:px-0 lg:max-w-6xl'>
         <div
           className='text-center text-[28px] lg:text-[48px] font-semibold text-neutral-7 dark:text-white'

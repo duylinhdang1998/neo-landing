@@ -52,6 +52,7 @@ export default function Header() {
             <button
               className='xl:hidden w-6 h-6 pr-4 dark:text-white'
               onClick={() => setOpen((prev) => !prev)}
+              aria-label='close-menu'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'

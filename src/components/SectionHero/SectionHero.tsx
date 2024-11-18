@@ -23,8 +23,8 @@ export default function SectionHero() {
               <p className='text-sm lg:text-[16px] text-neutral-7 mt-2 dark:text-white leading-[32px]'>
                 {`Stream AI-powered trading insights and earn NEO rewards while you learn and trade.`}
               </p>
-              <div className='p-2 inline-flex max-w-fit btn-animation relative'>
-                <button className='bg-primary font-semibold text-white px-8 py-4 rounded-full transition-colors flex items-center space-x-3'>
+              <div className='p-2 inline-flex max-w-fit btn-animation relative min-w-[180px] min-h-fit'>
+                <button aria-label='Start Earning' className='bg-primary font-semibold text-white px-8 py-4 rounded-full transition-colors flex items-center space-x-3 '>
                   Start Earning →
                 </button>
               </div>
@@ -41,6 +41,8 @@ export default function SectionHero() {
                 alt='hero-banner'
                 width={matches ? 768 * 0.85 : 358}
                 height={matches ? 632 : 306}
+                loading='eager'
+                priority
               />
               <div className='absolute animate-bounce top-0 left-[95px]'>
                 <Image

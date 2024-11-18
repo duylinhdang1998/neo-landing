@@ -14,6 +14,7 @@ export default function ToggleTheme() {
     <button
       onClick={handleChangeTheme}
       className='w-11 h-11 rounded-full flex justify-center items-center border dark:border-neutral-3 relative cursor-pointer'
+      aria-label="Toggle darkmode"
     >
       <IconSun
         className={cx(

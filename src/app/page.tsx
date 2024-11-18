@@ -87,6 +87,7 @@ export default function Home() {
             'opacity-1 scale-1': showButton,
           }
         )}
+        aria-label='Scroll to top'
         onClick={backToTop}
       >
         <svg

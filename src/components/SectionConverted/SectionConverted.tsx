@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function SectionConverted() {
   return (
-    <section className='py-[48px] lg:py-[100px] px-4 dark:bg-bg-primary'>
+    <section className='py-[48px] lg:py-[100px] px-4 dark:bg-bg-primary min-h-fit w-full'>
       <div className='relative lg:max-w-6xl container mx-auto '>
         <img
-          src={'/img/converted.png'}
+          src={'/img/converted.webp'}
           alt='converted'
           className='absolute top-0 left-0 w-full h-full rounded-[16px] dark:border dark:border-neutral-6'
         />
@@ -18,7 +18,7 @@ export default function SectionConverted() {
             entertainment and dual-chain trading, bridging Neo’s world with
             Chainlink and beyond.
           </span>
-          <button className='flex items-center space-x-3 py-4 px-8 bg-secondary rounded-[48px] text-neutral-8 font-semibold mt-6 lg:mt-[40px]'>
+          <button className='flex items-center space-x-3 py-4 px-8 bg-secondary rounded-[48px] text-neutral-8 font-semibold mt-6 lg:mt-[40px]' aria-label='Join now'>
             <span>Join now</span>
             <svg
               xmlns='http://www.w3.org/2000/svg'
