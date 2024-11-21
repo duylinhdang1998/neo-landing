@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   /* Light mode variables */
   --bg-image-banner: url('/img/hero.webp');
